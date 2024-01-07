@@ -96,7 +96,7 @@ class ClientController extends Controller
     }
 
 
-    public function getAwards(Request $request, $id)
+    public function awardsEmail($id)
     {
         try {
             $client = Client::find($id);
